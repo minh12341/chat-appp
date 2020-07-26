@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    
+    <div class="login-container">
+        <div class="aside-right">
+            <div class="header">
+                <h3>Mindx chat</h3>
+            </div>
+            <form id="login-form">
+                <div class="input-wraper">
+                    <input type="email"  name="email" placeholder="Email">
+                            <div class="error" id="emailError"> </div>
+                </div>
+                <div class="input-wraper">
+                    <input type="password"  name="password" placeholder="Password">
+                            <div class="error" id="passwordError"> </div>
+                </div>
+                <div class="form-action">
+                    <span id="redirect-to-register"> Don't have an account? <a onclick="goToRegister()" href="#">Register</a> </span>
+                    <button class="btn" type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+        </div>
+</body>
+</html>
